@@ -16,3 +16,11 @@ library(readxl)     # load readxl, for reading Excel files
 library(tidyverse)  # load tidyverse, for working with datasets
 ```
 
+## Read the Data
+
+Go over and read through the data that was given.
+
+```{r}
+finches <- read_excel("finches_data.xlsx")
+```
+
